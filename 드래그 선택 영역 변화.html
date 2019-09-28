@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+    <style>
+        input[type=checkbox]:checked + div {
+            height: 0px;
+        }
+        div {
+            overflow: hidden;
+            width: 650px;
+            height: 300px;
+            /*변화 효과 적용 시간*/
+            -ms-transition-duration: 1s;
+            -webkit-transition-duration: 1s;
+            -moz-transition-duration: 1s;
+            transition-duration: 1s;
+        }
+    </style>
+</head>
+<body>
+    <input type="checkbox">
+    <div id="header"><h1>h1 header</h1></div>
+    <input type="checkbox">
+    <div id="navigation"><h1>h1 navigation</h1></div>
+    <div class="clear"></div>
+
+    <div id="aside">
+        <h1>aside</h1>
+        <p>asdfasdfasdfasdb asdfasdfasdfas dfasdf asdfas dfadsfas df</p>
+    </div>
+
+    <div id="section">
+        <h1>section</h1>
+        <p>asdfadfasdfdskfjsdklfjskldjflksjflkdjfksdjfklsdjflsdkfjlskdfjksdf</p>
+    </div>
+
+    <div id="footer">
+        <h1>footer</h1>
+    </div>
+    <div class="clear"></div>
+</body>
+</html>
